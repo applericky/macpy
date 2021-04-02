@@ -13,24 +13,25 @@ run pip3 install .
 # How to
 
 ```
-macpy                                                                                                                                   ~
+~ ❯ macpy                                                                                                                                   
 Please enter the MAC address:
 ```
 
 # Successful search
 ```
-macpy                                                                                                                                   ~
-Please enter the MAC address: abc
-MAC address not found.
+~ ❯ macpy                                                                                                                                   
+Please enter the MAC address: F4BD9E
+Cisco Systems, Inc
 ```
 # Unsuccessful Search
 ```
-macpy abc
+~ ❯ macpy
+Please enter the MAC address:
 MAC address not found.
 ```
 
-# Missing argument
+# Missing entry
 ```
-macpy                                                                                                                                   ~
+~ ❯ macpy                                                                                                                                   
 Please enter the MAC address:
 No MAC address entered
