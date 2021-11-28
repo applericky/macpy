@@ -8,10 +8,11 @@ Write up of tool on dev.to
 * Python 3 - [Click here for website](https://www.python.org)
 * Requests - [Click here for repo](https://github.com/psf/requests)
 
-To run the tool, save the macpy.py file to your device and run it with Python.
 
 
 # How to
+To run the tool, save the macpy.py file to your device and run it with Python.
+
 
 ```
 ~ ❯ python3 macpy.py                                                                                                                                  
