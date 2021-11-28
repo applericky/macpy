@@ -34,6 +34,6 @@ MAC address not found.
 
 # Missing entry
 ```
-~ ❯ macpy.py                                                                                                                                   
+~ ❯ python3 macpy.py                                                                                                                                   
 Please enter the MAC address:
 No MAC address entered
