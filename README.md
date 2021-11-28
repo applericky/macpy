@@ -1,37 +1,38 @@
 # Macpyoui
 A tool to find the vendor of a MAC address.
 
+Write up of tool on dev.to
+
+
 # Prerequisites
 * Python 3 - [Click here for website](https://www.python.org)
 * Requests - [Click here for repo](https://github.com/psf/requests)
 
-# Install
-To install the tool you will need to download it.
-cd into directory where the setup.py is. 
-run pip3 install .
+To run the tool, save the macpy.py file to your device and run it with Python.
+
 
 # How to
 
 ```
-~ ❯ macpy                                                                                                                                   
+~ ❯ python3 macpy.py                                                                                                                                  
 Please enter the MAC address:
 ```
 
 # Successful search
 ```
-~ ❯ macpy                                                                                                                                   
+~ ❯ python3 macpy.py                                                                                                                                   
 Please enter the MAC address: F4BD9E
 Cisco Systems, Inc
 ```
 # Unsuccessful Search
 ```
-~ ❯ macpy
+~ ❯ python3 macpy.py
 Please enter the MAC address:
 MAC address not found.
 ```
 
 # Missing entry
 ```
-~ ❯ macpy                                                                                                                                   
+~ ❯ macpy.py                                                                                                                                   
 Please enter the MAC address:
 No MAC address entered
