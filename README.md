@@ -1,7 +1,7 @@
 # Macpyoui
 A tool to find the vendor of a MAC address.
 
-Write up of tool on dev.to
+View the write up of this tool on [dev.to](https://dev.to/applericky/mac-address-lookup-using-python-and-an-api--59ba)
 
 
 # Prerequisites
@@ -36,4 +36,9 @@ MAC address not found.
 ```
 ~ ❯ python3 macpy.py                                                                                                                                   
 Please enter the MAC address:
-No MAC address entered
+No MAC address entered.
+```
+
+#### Todo
+- Allow to be installed as a  CLI app and have a uodate tool. 
+- Be available to install with Pip and Brew.  
